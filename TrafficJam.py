@@ -54,6 +54,8 @@ def move(board, input):
                return ['T', board]
          return ['F', initialBoard]
       #else if (board[input] == right)
+      else:
+         return ['F', initialBoard]
 
    except IndexError:
       return ['F', initialBoard]
