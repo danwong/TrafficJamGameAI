@@ -3,7 +3,8 @@ import TrafficJam as TJ
 def main():
    board = TJ.initializeBoard()
    TJ.printBoard(board)
-   
+   result = TJ.move(board, 6)
+   print(result[1])
 
 
 
